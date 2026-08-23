@@ -1,0 +1,22 @@
+{
+  "name": "behavior-pack-template",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "pack": "node bin/build.js",
+    "build": "tsc && node bin/build.js"
+  },
+  "keywords": [],
+  "author": "All Realms Are Safe",
+  "license": "MIT",
+  "type": "commonjs",
+  "devDependencies": {
+    "archiver": "^7.0.1"
+  },
+  "dependencies": {
+    "@minecraft/server": "^2.8.0-beta.1.26.20-preview.23",
+    "@minecraft/server-admin": "^1.0.0-beta.1.26.20-preview.23",
+    "@minecraft/server-gametest": "^1.0.0-beta.1.26.20-preview.23",
+    "@minecraft/server-ui": "^2.1.0-beta.1.26.20-preview.23"
+  }
+}

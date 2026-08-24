@@ -1,29 +1,11 @@
-# Behavior Pack Template
-Helpful template repository for building [Behavior Packs](https://wiki.bedrock.dev/scripting/scripting-intro) in TypeScript.
+# MapDisabler
+This is a Minecraft Bedrock Behavior Pack addon that allows you to choose which allows you to choose which maps get cleared from player's inventories in game.
 
-## Setup
-1. Clone this repository 
-2. Run `npm install`
+<img src="images/menu.png" alt="MapDisabler Menu" width="800" />
 
-You now have great intellisense to make development quick and easy!
+# Setup
+1. Download the [latest release](https://github.com/NoVa-Gh0ul/MapDisabler/releases)
+2. Apply the pack to your world/realm/server, ensure Cheats and Beta API's are enabled
+3. Type `!maps` in chat to change settings for the addon!
 
-## Usage/Tools
-The structure of this project follows the [TypeScript scripting tutorial](https://wiki.bedrock.dev/scripting/typescript) with some additional tools to make your coding environment less annoying
-- `npm run build` will compile your TypeScript code inside `src/`, output to `scripts/` and create a `.mcpack` file in the root of this project.
-
-The .mcpack created from this template looks like:
-```
-- Template_Behavior_Pack_v1.0.0
-  - scripts
-    - main.js
-  - manifest.json
-  - pack_icon.png
-```
-
-- `npm run pack` will create a `.mcpack` file in the root of this project.
-
-## Roadmap
-- [ ] Auto `/reload` script for development on worlds
-- [ ] Auto update version/uuid in `build` script
-- [ ] webpack/esbuild stuff?
-- [ ] Workflows to run tests and bump version?
+By default regular locator maps are disabled. If you want to temporarily disable the addon without removing it, you can press the "Disable Enforcement" button in the menu.

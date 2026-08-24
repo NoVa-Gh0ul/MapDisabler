@@ -1,30 +1,30 @@
 {
     "format_version": 3,
     "header": {
-        "name": "Behavior Pack Template",
-        "description": "This is a behavior pack template for Script API 2.0+",
-        "uuid": "5895377e-8c7a-40ab-8e36-ba6b872c5133",
+        "name": "Map Disabler",
+        "description": "Created by NoVa Gh0ul - Allows you to disable certain maps in the game.",
+        "uuid": "7ca82d96-77ec-40d6-b4a7-cabfb5f5f065",
         "version": "1.0.0",
         "min_engine_version": "1.26.12"
     },
     "modules": [
         {
             "type": "data",
-            "uuid": "e58f7082-bec5-49f2-93ea-b78cdd9db91e",
+            "uuid": "3f47bd45-f99d-4b6f-9b5d-66089754d574",
             "version": "1.0.0"
         },
         {
             "type": "script",
             "language": "javascript",
-            "uuid": "6c5641cc-f868-4288-b608-27d7c7853133",
+            "uuid": "24cb777b-4ad9-4343-ba5b-9af6bf1553f3",
             "version": "1.0.0",
             "entry": "scripts/main.js"
         }
     ],
     "metadata": {
-        "authors": ["All Realms Are Safe"],
+        "authors": ["NoVa Gh0ul"],
         "product_type": "addon",
-        "url": "https://github.com/All-Realms-Are-Safe"
+        "url": "https://github.com/NoVa-Gh0ul"
     },
     "dependencies": [
         {
@@ -33,10 +33,6 @@
         },
         {
             "module_name": "@minecraft/server-ui",
-            "version": "beta"
-        },
-        {
-            "module_name": "@minecraft/server-gametest",
             "version": "beta"
         }
     ]

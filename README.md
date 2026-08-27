@@ -1,5 +1,5 @@
 # MapDisabler
-This is a Minecraft Bedrock Behavior Pack addon that allows you to choose which allows you to choose which maps get cleared from player's inventories in game.
+This is a Minecraft Bedrock Behavior Pack addon that allows you to choose which maps get cleared from player's inventories in game.
 
 <img src="images/menu.png" alt="MapDisabler Menu" width="800" />
 
